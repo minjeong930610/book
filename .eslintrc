@@ -23,7 +23,6 @@
     "no-unused-vars": 1,
     "react/jsx-uses-react": "error",   
     "react/jsx-uses-vars": "error",
-    "react/jsx-key": "error",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "react/function-component-definition": [
