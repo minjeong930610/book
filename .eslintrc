@@ -2,7 +2,7 @@
   "plugins": ["prettier"],
 
   // "extends": ["airbnb", "plugin:prettier/recommended"],
-  "extends": ["eslint:recommended", "plugin:prettier/recommended","react-app"],
+  "extends": ["eslint:recommended", "plugin:prettier/recommended", "plugin:react/recommended", "react-app"],
 
   "env": {
     "browser": true,
