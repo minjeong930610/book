@@ -11,7 +11,7 @@ const ChatPage = () => {
     { id: 124123, userName: '김민정', time: '2022년 5월 31일', lastChat: 'djfksjfk', unread: 2 },
   ]);
 
-  const ChatListShow = chatList.map((item, idx) => <ChatListItem id={idx} imgUrl={item.imgUrl} userName={item.userName} time={item.time} lastChat={item.lastChat} unread={item.unread} />);
+  //const ChatListShow = chatList.map((item, idx) => <ChatListItem id={idx} imgUrl={item.imgUrl} userName={item.userName} time={item.time} lastChat={item.lastChat} unread={item.unread} />);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -22,7 +22,7 @@ const ChatPage = () => {
     };
   }, []);
 
-  return <Wrapper>{ChatListShow}</Wrapper>;
+  return <Wrapper></Wrapper>;
 };
 
 export default ChatPage;
