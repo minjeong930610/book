@@ -8,6 +8,13 @@
     "browser": true,
     "node": true
   },
+  
+  "no-unused-vars": [
+        "error",
+        {
+            "varsIgnorePattern": "^h$"
+        }
+    ],
 
   "rules": {
     "no-new": "off",
@@ -23,9 +30,6 @@
     "no-unused-vars": 1,
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "prettier/prettier": ["error", { "endOfLine": "auto" }],
-    "react/jsx-uses-react": "error",   
-    "react/jsx-uses-vars":
-    "error" 
     "react/function-component-definition": [
       2,
       {
